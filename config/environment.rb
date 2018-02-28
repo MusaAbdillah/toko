@@ -6,13 +6,16 @@ Rails.application.initialize!
 
 Depot::Application.configure do 
 	config.action_mailer.delivery_method = :smpt
-  	config.action_mailer.smtp_setting = {
-                address: "smtp.gmail.com",
-                port: 587,
-                domain: "domain.of.sender.net",
-                authentication: "plain",
-                user_name: "dave",
-                password: "secret",
-                enable_starttls_auto: true
-  } 
+  #config/environments/production.rb
+  config.action_mailer.smtp_settings = {
+      :address   => "smtp.sendgrid.net",
+      :port      => 587, # ports 587 and 2525 are also supported with STARTTLS
+      :enable_starttls_auto => true, # detects and uses STARTTLS
+      :user_name => ENV["SENDGRID_USERNAME"],
+      :password  => ENV["SENDGRID_PASSWORD"], # SMTP password is any valid API key, when user_name is "apikey".
+      :authentication => 'login',
+      :domain => 'yourdomain.com', # your domain to identify your server when connecting
+  }
+
+
 end
