@@ -14,7 +14,7 @@ Depot::Application.configure do
       :user_name => ENV["SENDGRID_USERNAME"],
       :password  => ENV["SENDGRID_PASSWORD"], # SMTP password is any valid API key, when user_name is "apikey".
       :authentication => 'login',
-      :domain => 'yourdomain.com', # your domain to identify your server when connecting
+      :domain => 'stark-temple-16554.herokuapp.com', # your domain to identify your server when connecting
   }
 
 
