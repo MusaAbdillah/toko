@@ -111,3 +111,59 @@ es:
         email: "E-mail"
         pay_type: "Forma de pago"
   thanks: "Gracias por su pedido"
+
+id: 
+  layouts: 
+    application:
+      title: "Toko Buku Pragmatic"
+      home: "Beranda"
+      questions: "Pertanyaan"
+      news: "Berita"
+      contact: "Hubungi Kami"
+  store: 
+    index: 
+      title_html: "Katalog"
+      add_html: "Tambah ke keranjang"
+  carts: 
+    cart: 
+      title: "Keranjang anda"
+      empty: "Kosongkan Keranjang"
+      checkout: "Proses"
+  number: 
+    currency:
+        format: 
+          unit: "$US"
+          precision: 2
+          separator: ","
+          delimiter: "."
+          format: "%n&nbsp;%u"
+  orders: 
+    new: 
+      legend: "Masukkan Alamat Penerima"
+    form: 
+      name: "Nama"
+      address_html: "Alamat"
+      email: "E-mail"
+      pay_type: "Cara Pembayaran"
+      pay_prompt_html: "Pilih cara pembayaran"
+      submit: "Buat Pesanan"
+  activerecord: 
+    errors: 
+      messages: 
+        inclusion: "Tidak termasuk dalam daftar"
+        blank: "lembar isian tidak boleh kosong"
+  errors: 
+    template: 
+      body: "Ada kesalahan dengan lembar isian berikut:"
+      header: 
+        one: "1 kesalahan menghalangi %{model} untuk disimpan"
+        other: "%{count} kesalahan menghalangi %{model} untuk disimpan"
+    models: 
+      order: "Pesanan"
+    attributes:
+      order: 
+        address: "Alamat"
+        name: "Nama"
+        email: "E-mail"
+        pay_type: "Cara Pembayaran"
+  thanks: "Terima kasih sudah berbelanja"
