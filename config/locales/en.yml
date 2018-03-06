@@ -22,7 +22,7 @@
 en:
   layouts: 
     application: 
-      title: "Pragmatic Bookshelf"
+      title: "Pragmatic Art"
       home: "Home"
       questions: "Questions"
       news: "News"
@@ -59,7 +59,7 @@ en:
 es: 
   layouts: 
     application:
-      title: "Publicaciones de Pragmatic"
+      title: "Art de Pragmatic"
       home: "Inicio"
       questions: "Preguentas"
       news: "Noticias"
@@ -115,7 +115,7 @@ es:
 id: 
   layouts: 
     application:
-      title: "Toko Buku Pragmatic"
+      title: "Pragmatic Art"
       home: "Beranda"
       questions: "Pertanyaan"
       news: "Berita"
