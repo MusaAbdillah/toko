@@ -1,0 +1,25 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.static_pages {
+	table {
+		border-collapse: collapse;
+
+		tr {
+
+			td {
+				padding: 7px;
+			}
+		}
+	}
+
+	
+	table, th, td {
+	    border: 1px solid black;
+	}
+
+	img {
+		width: 100px;
+		height: 50px;
+	}
+}

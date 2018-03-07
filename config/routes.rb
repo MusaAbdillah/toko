@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'static_pages/contact'
+
   get 'admin' => 'admin#index'
 
   controller :sessions do 
