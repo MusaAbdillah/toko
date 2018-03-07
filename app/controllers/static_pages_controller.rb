@@ -1,4 +1,6 @@
 class StaticPagesController < ApplicationController
-  def contact
-  end
+	skip_before_action :authorize
+
+	def contact
+	end
 end

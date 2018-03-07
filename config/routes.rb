@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get 'static_pages/contact'
 
   get 'admin' => 'admin#index'
 
@@ -24,6 +23,7 @@ Rails.application.routes.draw do
     resources :line_items
     resources :carts
     root 'store#index', as: 'store', via: :all
+    get 'static_pages/contact'
   end
 
 end
